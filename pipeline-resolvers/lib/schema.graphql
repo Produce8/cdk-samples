@@ -1,0 +1,21 @@
+type Album {
+  id: String!
+  name: String!
+  artist: String!
+  publishedDate: String!
+}
+
+input AlbumInput {
+  name: String!
+  artist: String!
+  publishedDate: String!
+}
+
+
+type Query{
+    getAlbums:[Album]! 
+}
+
+type Mutation {
+  createAlbum(input: AlbumInput!): Album
+}

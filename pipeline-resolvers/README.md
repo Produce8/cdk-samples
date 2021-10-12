@@ -1,8 +1,8 @@
-# Welcome to your CDK TypeScript project!
+# Pipeline Resolvers Demo App 
 
-This is a blank project for TypeScript development with CDK.
+A sample of how a lambda function can be used to insert some custom validation in concert with a VTL based dynamo resolver. 
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+In order to deploy the stack to your AWS account, you'll need to setup your CDK CLI and profile. See instructions here https://docs.aws.amazon.com/cdk/latest/guide/cli.html
 
 ## Useful commands
 

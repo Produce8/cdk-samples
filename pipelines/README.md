@@ -1,7 +1,8 @@
-# Default Alarms Stack 
+# Welcome to your CDK TypeScript project!
 
-This is a sample stack that creates 2 lambdas then uses a CDK Aspect to attach 2 types of alarms to each lambda in the stack, one which uses the default error metric and another that uses a custom log filter. 
+This is a blank project for TypeScript development with CDK.
 
+The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## Useful commands
 

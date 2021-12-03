@@ -61,6 +61,7 @@ export class PipelinesStack extends cdk.Stack {
                       build: {
                           commands: [
                               "ls -Al",
+                              "cd pipelines",
                               "npm run build",
                               "npm run cdk synth",
                               "ls -Al",

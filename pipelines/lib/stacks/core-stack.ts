@@ -26,6 +26,6 @@ export class CoreStack extends cdk.Stack{
             },
         });
         this.graphQlApiId = api.apiId;
-        new ChildStack(this,"nestedstack",api.apiId); 
+        //new ChildStack(this,"nestedstack",api.apiId); 
     }
 }

@@ -56,12 +56,11 @@ export class PipelinesStack extends cdk.Stack {
                           "runtime-versions": {
                               nodejs: 14,
                           },
-                          commands: ["npm ci"],
+                          commands: ["cd pipelines","npm ci"],
                       },
                       build: {
                           commands: [
-                              "ls -Al",
-                              "cd pipelines",
+                              "ls -Al",                              
                               "npm run build",
                               "npm run cdk synth",
                               "ls -Al",
